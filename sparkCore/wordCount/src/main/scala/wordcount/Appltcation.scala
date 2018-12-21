@@ -13,7 +13,6 @@ object Appltcation extends App {
   val textFile = sparkContext.textFile("hdfs://hadoop102:9000/test/0223.txt")
   val value: RDD[String] = textFile.flatMap(_.split("\r\n"))
   val value1: RDD[(String, Int)] = value.map(getPartnerordeid(_)).map((_, 1)).reduceByKey(_ + _, 1)
-  value1.saveAsTextFile("hdfs://hadoop102:9000/test/0223_result.txt")
   //4.输出数据文件的结果
   value1.saveAsTextFile("hdfs://hadoop102:9000/test/0223_result.txt")
 
