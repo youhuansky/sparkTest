@@ -6,6 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object Appltcation extends App {
 
   //1.声明一个spark conf对象，用于配置spark连接
+
   val sparkConf = new SparkConf().setAppName("wordCountTest")/*.setMaster("local[*]")*/
   //2.创建一个sparkcontext用于连接spark集群
   val sparkContext = new SparkContext(sparkConf)
