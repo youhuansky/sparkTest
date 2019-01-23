@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sparkCore/spark-sql/spark-sql.iml" filepath="$PROJECT_DIR$/sparkCore/spark-sql/spark-sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparkCore/sparkCore.iml" filepath="$PROJECT_DIR$/sparkCore/sparkCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparkTest.iml" filepath="$PROJECT_DIR$/sparkTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparkCore/wordCount/wordCount.iml" filepath="$PROJECT_DIR$/sparkCore/wordCount/wordCount.iml" />

@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>wordCount</module>
+        <module>spark-sql</module>
     </modules>
 
     <dependencies>
@@ -27,7 +28,7 @@
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.11</artifactId>
             <version>${spark.version}</version>
-            <scope>provided</scope>
+            <!--<scope>provided</scope>-->
         </dependency>
 
     </dependencies>
