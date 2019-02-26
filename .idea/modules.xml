@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/sparkCore/spark-stream/spark-stream.iml" filepath="$PROJECT_DIR$/sparkCore/spark-stream/spark-stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparkCore/sparkCore.iml" filepath="$PROJECT_DIR$/sparkCore/sparkCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparkTest.iml" filepath="$PROJECT_DIR$/sparkTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparkCore/sparkgraphX/sparkgraphX.iml" filepath="$PROJECT_DIR$/sparkCore/sparkgraphX/sparkgraphX.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparkCore/wordCount/wordCount.iml" filepath="$PROJECT_DIR$/sparkCore/wordCount/wordCount.iml" />
     </modules>
   </component>

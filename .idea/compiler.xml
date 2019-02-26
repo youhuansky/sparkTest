@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spark-sql" />
         <module name="spark-stream" />
+        <module name="sparkgraphX" />
         <module name="wordCount" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="spark-sql" target="1.8" />
       <module name="spark-stream" target="1.8" />
       <module name="sparkCore" target="1.8" />
+      <module name="sparkgraphX" target="1.8" />
       <module name="sparkTest" target="1.8" />
       <module name="wordCount" target="1.8" />
     </bytecodeTargetLevel>

@@ -15,6 +15,7 @@
         <module>wordCount</module>
         <module>spark-sql</module>
         <module>spark-stream</module>
+        <module>sparkgraphX</module>
     </modules>
 
     <dependencies>
